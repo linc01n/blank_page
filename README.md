@@ -1,4 +1,4 @@
-Cowboy Blang Page
+Cowboy Blank Page
 ==================
 
 To compile this example you need rebar in your PATH.
