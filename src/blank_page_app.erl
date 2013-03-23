@@ -16,8 +16,8 @@ start(_Type, _Args) ->
 			{"/", toppage_handler, []}
 		]}
 	]),
-	{ok, _} = cowboy:start_http(http, 100, [{port, 80}], [
-		{env, [{dispatch, Dispatch},{max_connections, infinity}]}
+	{ok, _} = cowboy:start_http(http, 100, [{port, 80},{max_connections, infinity}], [
+		{env, [{dispatch, Dispatch}]}
 	]),
 	blank_page_sup:start_link().
 
