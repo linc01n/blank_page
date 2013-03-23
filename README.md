@@ -1,4 +1,4 @@
-Cowboy Hello World
+Cowboy Blang Page
 ==================
 
 To compile this example you need rebar in your PATH.
@@ -19,12 +19,11 @@ Example
 -------
 
 ``` bash
-$ curl -i http://localhost:8080
+$ curl -i http://localhost/
 HTTP/1.1 200 OK
 connection: keep-alive
 server: Cowboy
 date: Fri, 28 Sep 2012 04:10:25 GMT
-content-length: 12
+content-length: 0
 
-Hello world!
 ```
